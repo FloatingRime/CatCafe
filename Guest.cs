@@ -15,8 +15,14 @@ public class Guest
     //通过喜欢概率判断是否有机会和猫猫玩，有机会就玩（向猫猫走去
     public void PlayWithCat(Cat cat); 
 
+    //这个是猫来找顾客玩，需要重载，还没想好怎么重载
+    public void PlayWithCat(Cat cat, int a);
+
     //好感度改变函数
     public void CatLikeChange(Cat cat, int likeChange);
+
+    //好感查询函数
+    //...
 
     //付钱概率改变函数
     public void PayProbabilityChange();
